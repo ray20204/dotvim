@@ -129,3 +129,5 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 set completeopt-=preview
+nnoremap <silent> <F9> :set paste<CR>
+nnoremap <silent> <F5> :NERDTree<CR>
