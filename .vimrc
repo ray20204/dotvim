@@ -11,6 +11,7 @@ set ru
 set ic
 set encoding=utf-8
 set fileencoding=utf-8
+set nobomb
 " set mouse=a
 set modeline
 set cursorline
@@ -131,3 +132,4 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 set completeopt-=preview
 nnoremap <silent> <F9> :set paste<CR>
 nnoremap <silent> <F5> :NERDTree<CR>
+let g:user_emmet_expandabbr_key = '<Tab>'
