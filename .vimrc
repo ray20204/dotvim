@@ -133,3 +133,4 @@ set completeopt-=preview
 nnoremap <silent> <F9> :set paste<CR>
 nnoremap <silent> <F5> :NERDTree<CR>
 let g:user_emmet_expandabbr_key = '<Tab>'
+let g:user_emmet_leader_key='<C-E>'
